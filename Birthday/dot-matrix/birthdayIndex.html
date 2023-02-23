@@ -83,7 +83,10 @@
     </style>
     <script type="text/javascript">
         window.onload = function(){
-                 setInterval("toggleSound()",100);
+                setInterval("toggleSound()",100);
+                document.addEventListener('WeixinJSBridgeReady', function() {
+                document.getElementById('audios').play()
+                })
             }
     
         function toggleSound() {
