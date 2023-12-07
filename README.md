@@ -1,2 +1,2 @@
 # Love Codes
-Some sorts of love codes for birthdays
+一些从网上搜到的开源代码
